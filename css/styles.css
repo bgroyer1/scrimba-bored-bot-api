@@ -85,7 +85,15 @@ body {
     max-width: 500px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
+    .title {
+        font-size: 1.5rem;
+    }
+    
+    .intro-p {
+        font-size: 0.75rem; 
+    }
+
     .card {
         max-width: 90%;
     }
@@ -110,6 +118,8 @@ body {
     text-align: center;
 }
 
+
+
 .activity-header {
     font-size: 1.25rem;
     color: var(--darker-blue);
@@ -127,4 +137,20 @@ body {
 img {
     width: 100%;
     object-fit: cover;
+}
+
+@media (max-width: 500px) {
+    .activity {
+        padding: 1em;
+    }
+
+    .activity-header {
+        font-size: 0.9rem;
+    }
+
+    .activity-category,
+    .activity-cost,
+    .activity-participants {
+        font-size: 0.75rem;
+    }
 }
